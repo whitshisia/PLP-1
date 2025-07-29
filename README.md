@@ -79,6 +79,11 @@ For GitHub Pages:
 - Font Awesome for icons
 - Unsplash for placeholder images
 - Modern CSS techniques for animations and layout
+  
+## Contact Info
+
+Email: Shisiawhitney215@gmail.com
+Phone number :+254 711506494
 
 ## License
 
