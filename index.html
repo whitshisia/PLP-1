@@ -3,308 +3,308 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <meta name="description" content="Portfolio of Whitney Shisia, a software developer specializing in backend development">
+    <title>Whitney Shisia - Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="styles.css" >
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav class="container">
-                <div class="logo">PORTFOLIO</div>
-                <input type="checkbox" id="menu-toggle" class="menu-toggle">
-                <label for="menu-toggle" class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#interests">Interests</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+            <div class="logo">PORTFOLIO</div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section id="hero">
-        <section class="container hero-content">
+    <main>
+        <section id="hero" aria-label="Introduction">
+            <div class="container hero-content">
                 <h1>Hi, I'm <span style="color: var(--gold);">Whitney Shisia</span></h1>
-                <p>A passionate software developer ,speacializing in backend development ,creating innovative solutions with clean, efficient code and modern technologies.</p>
+                <p>A passionate software developer, specializing in backend development, creating innovative solutions with clean, efficient code and modern technologies.</p>
                 <div class="hero-btns">
                     <a href="#projects" class="btn">View My Work</a>
                     <a href="#contact" class="btn btn-outline">Contact Me</a>
                 </div>
-            
+            </div>
         </section>
-    </section>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <div class="profile-pic-container">
-                    <img src="image4.jpg" alt="Profile Picture" class="profile-pic">
-                </div>
-                <div class="about-text">
-                    <p>I’m Whitney Shisia, a Communication and Media Studies student with a strong foundation in storytelling, digital media, and public engagement. My academic background has sharpened my skills in effective communication, creative thinking, and audience-centered content creation—elements I bring into every project I work on.</p>
-                    <p>Beyond my media training, I specialize in backend development, where I focus on building secure, scalable, and efficient systems that drive the functionality of web and mobile applications. I have experience working with technologies like Python, Firebase, Node.js, and Express, and I’m proficient in building APIs, user authentication systems, real-time data features, and cloud integrations.I prioritize clean architecture, database optimization, and user privacy in all my backend work.</p>
-                    <p>As a developer with a communications background, I bring a rare blend of technical execution and user-centric thinking to the table. I believe that code should not only work well but also serve people meaningfully. I’m continuously learning—currently exploring containerization (Docker), NoSQL databases, and scalable server deployments. Whether I’m contributing to a development team or working independently, I aim to build tools that empower users, enhance access, and spark innovation.</p>
-                    <a href="https://docs.google.com/document/d/18k2AIhMPKqZQPWOgqZjV9AT4auKVBS5uA_4hJ1fkPX0/edit?usp=sharing" class="btn cv-btn">
-                        <i class="fas fa-download"></i> Download CV
-                    </a>
+        <section id="about" aria-labelledby="about-heading">
+            <div class="container">
+                <h2 id="about-heading">About Me</h2>
+                <article class="about-content">
+                    <figure class="profile-pic-container">
+                        <img src="image4.jpg" alt="Whitney Shisia Profile Picture" class="profile-pic">
+                    </figure>
+                    <div class="about-text">
+                        <p>I'm Whitney Shisia, a Communication and Media Studies student with a strong foundation in storytelling, digital media, and public engagement. My academic background has sharpened my skills in effective communication, creative thinking, and audience-centered content creation—elements I bring into every project I work on.</p>
+                        <p>Beyond my media training, I specialize in backend development, where I focus on building secure, scalable, and efficient systems that drive the functionality of web and mobile applications. I have experience working with technologies like Python, Firebase, Node.js, and Express, and I'm proficient in building APIs, user authentication systems, real-time data features, and cloud integrations. I prioritize clean architecture, database optimization, and user privacy in all my backend work.</p>
+                        <p>As a developer with a communications background, I bring a rare blend of technical execution and user-centric thinking to the table. I believe that code should not only work well but also serve people meaningfully. I'm continuously learning—currently exploring containerization (Docker), NoSQL databases, and scalable server deployments. Whether I'm contributing to a development team or working independently, I aim to build tools that empower users, enhance access, and spark innovation.</p>
+                        <a href="https://docs.google.com/document/d/18k2AIhMPKqZQPWOgqZjV9AT4auKVBS5uA_4hJ1fkPX0/edit?usp=sharing" class="btn cv-btn">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="education" aria-labelledby="education-heading">
+            <div class="container">
+                <h2 id="education-heading">Education & Certifications</h2>
+                <div class="education-cards">
+                    <!-- PLP -->
+                    <article class="edu-card current">
+                        <header class="edu-header">
+                            <div class="edu-institution">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Power Learn Project</span>
+                            </div>
+                            <time class="edu-date" datetime="2025">2025-Present</time>
+                        </header>
+                        <h3 class="edu-title">Software Engineering</h3>
+                        <p>Currently enrolled in comprehensive software development program</p>
+                        <div class="edu-badges">
+                            <span class="edu-badge">Web Development</span>
+                            <span class="edu-badge">Cloud Computing</span>
+                        </div>
+                    </article>
+
+                    <article class="edu-card">
+                        <header class="edu-header">
+                            <div class="edu-institution">
+                                <i class="fas fa-certificate"></i>
+                                <span>Moringa School</span>
+                            </div>
+                            <time class="edu-date" datetime="2023-2024">2023-2024</time>
+                        </header>
+                        <h3 class="edu-title">Software Engineering Cert.</h3>
+                        <p>Full-stack JavaScript development intensive</p>
+                        <div class="edu-badges">
+                            <span class="edu-badge">React</span>
+                            <span class="edu-badge">Node.js</span>
+                            <span class="edu-badge">MongoDB</span>
+                        </div>
+                    </article>
+
+                    <article class="edu-card">
+                        <header class="edu-header">
+                            <div class="edu-institution">
+                                <i class="fas fa-cloud"></i>
+                                <span>Huawei</span>
+                            </div>
+                            <time class="edu-date" datetime="2025">2025</time>
+                        </header>
+                        <h3 class="edu-title">Cloud Computing Cert.</h3>
+                        <p>Cloud infrastructure and virtualization</p>
+                        <div class="edu-badges">
+                            <span class="edu-badge">Cloud Architecture</span>
+                            <span class="edu-badge">Virtualization</span>
+                        </div>
+                    </article>
+
+                    <article class="edu-card">
+                        <header class="edu-header">
+                            <div class="edu-institution">
+                                <i class="fas fa-newspaper"></i>
+                                <span>University of Nairobi</span>
+                            </div>
+                            <time class="edu-date" datetime="2022">2022-Present</time>
+                        </header>
+                        <h3 class="edu-title">BA Journalism & Mass Communication</h3>
+                        <p>Undergraduate degree with focus on digital media and communication</p>
+                        <div class="edu-badges">
+                            <span class="edu-badge">Media Writing</span>
+                            <span class="edu-badge">Digital Storytelling</span>
+                            <span class="edu-badge">Communication Theory</span>
+                        </div>
+                    </article>
+
+                    <article class="edu-card">
+                        <header class="edu-header">
+                            <div class="edu-institution">
+                                <i class="fas fa-university"></i>
+                                <span>Harvard University</span>
+                            </div>
+                            <time class="edu-date" datetime="2024">2024</time>
+                        </header>
+                        <h3 class="edu-title">CS50 Certification</h3>
+                        <p>Introduction to Computer Science</p>
+                        <div class="edu-badges">
+                            <span class="edu-badge">C Programming</span>
+                            <span class="edu-badge">Python</span>
+                            <span class="edu-badge">Algorithms</span>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="education">
-        <div class="container">
-            <h2>Education & Certifications</h2>
-            <div class="education-cards">
-                <!-- PLP -->
-                <div class="edu-card current">
-                    <div class="edu-header">
-                        <div class="edu-institution">
-                            <i class="fas fa-graduation-cap"></i>
-                            <span>Power Learn Project</span>
-                        </div>
-                        <span class="edu-date">2025-Present</span>
-                    </div>
-                    <h3 class="edu-title">Software Engineering</h3>
-                    <p>Currently enrolled in comprehensive software development program</p>
-                    <div class="edu-badges">
-                        <span class="edu-badge">Web Development</span>
-                        <span class="edu-badge">Cloud Computing</span>
-                    </div>
+        <section id="skills" aria-labelledby="skills-heading">
+            <div class="container">
+                <h2 id="skills-heading">My Skills</h2>
+                <div class="skills-container">
+                    <article class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                        <p>Semantic markup, accessibility, SEO optimization, Web Components</p>
+                    </article>
+                    <article class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                        <p>Flexbox, Grid, animations, responsive design, CSS variables</p>
+                    </article>
+                    <article class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>ES6+, React, Node.js, TypeScript, functional programming</p>
+                    </article>
+                    <article class="skill-card">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                        <p>Django, Flask, data analysis, automation, machine learning</p>
+                    </article>
+                    <article class="skill-card">
+                        <i class="fab fa-aws"></i>
+                        <h3>Cloud</h3>
+                        <p>AWS, Google Cloud, serverless architecture, microservices</p>
+                    </article>
+                    <article class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Databases</h3>
+                        <p>PostgreSQL, MongoDB, Firebase, Redis, database design</p>
+                    </article>
                 </div>
+            </div>
+        </section>
 
-                <div class="edu-card">
-                    <div class="edu-header">
-                        <div class="edu-institution">
-                            <i class="fas fa-certificate"></i>
-                            <span>Moringa School</span>
+        <section id="projects" aria-labelledby="projects-heading">
+            <div class="container">
+                <h2 id="projects-heading">Featured Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <figure class="project-img-container">
+                            <img src="https://images.unsplash.com/photo-1586880244406-556ebe35f282?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBhcmNlbCUyMHRyYWNraW5nJTIwd2Vic2l0ZXxlbnwwfHwwfHx8MA%3D%3D" alt="Parcel Tracking Website screenshot" class="project-img">
+                        </figure>
+                        <div class="project-info">
+                            <h3>Parcel Tracking Website</h3>
+                            <p>I collaborated with a whole team on this parcel delivery platform. It was developed to offer users a seamless and secure way to send and receive packages across different locations. As the backend developer, I built a robust and scalable system to handle real-time order tracking, secure user authentication, and efficient delivery management.</p>
+                            <div class="project-links">
+                                <a href="https://parcelpoa.marps.co.ke/"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
                         </div>
-                        <span class="edu-date">2023-2024</span>
-                    </div>
-                    <h3 class="edu-title">Software Engineering Cert.</h3>
-                    <p>Full-stack JavaScript development intensive</p>
-                    <div class="edu-badges">
-                        <span class="edu-badge">React</span>
-                        <span class="edu-badge">Node.js</span>
-                        <span class="edu-badge">MongoDB</span>
-                    </div>
+                    </article>
+                    <article class="project-card">
+                        <figure class="project-img-container">
+                            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Baby Monitoring Platform screenshot" class="project-img">
+                        </figure>
+                        <div class="project-info">
+                            <h3>Baby Monitoring platform</h3>
+                            <p>The baby monitoring platform smart alerts, and activity tracking to help parents stay connected with their little ones from anywhere. Designed with safety, simplicity, and peace of mind in mind, it's your reliable companion in modern parenting.</p>
+                            <div class="project-links">
+                                <a href="https://baby-monitoring-web.web.app/"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <figure class="project-img-container">
+                            <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Tanoshi Adventures Website screenshot" class="project-img">
+                        </figure>
+                        <div class="project-info">
+                            <h3>Tanoshi Adventures Website</h3>
+                            <p>This is a simple adventure company website currently under development, improving its design, designed to showcase thrilling outdoor experiences, travel packages, and booking features for explorers and nature lovers.</p>
+                            <div class="project-links">
+                                <a href="https://tanoshiadventureske.netlify.app/"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
+            </div>
+        </section>
 
-                <div class="edu-card">
-                    <div class="edu-header">
-                        <div class="edu-institution">
-                            <i class="fas fa-cloud"></i>
-                            <span>Huawei</span>
-                        </div>
-                        <span class="edu-date">2025</span>
-                    </div>
-                    <h3 class="edu-title">Cloud Computing Cert.</h3>
-                    <p>Cloud infrastructure and virtualization</p>
-                    <div class="edu-badges">
-                        <span class="edu-badge">Cloud Architecture</span>
-                        <span class="edu-badge">Virtualization</span>
-                    </div>
+        <section id="interests" aria-labelledby="interests-heading">
+            <div class="container">
+                <h2 id="interests-heading">My Interests</h2>
+                <div class="interests-container">
+                    <article class="interest-card">
+                        <h3><i class="fas fa-brain"></i> AI & Machine Learning</h3>
+                        <p>Exploring how artificial intelligence can transform industries and create more intuitive user experiences through predictive analytics and natural language processing.</p>
+                    </article>
+                    <article class="interest-card">
+                        <h3><i class="fas fa-lock"></i> Cybersecurity</h3>
+                        <p>Passionate about building secure applications and understanding the latest threats and defense mechanisms in the digital landscape.</p>
+                    </article>
+                    <article class="interest-card">
+                        <h3><i class="fas fa-leaf"></i> Green Tech</h3>
+                        <p>Interested in how technology can contribute to sustainability and environmental conservation through energy-efficient coding and green hosting solutions.</p>
+                    </article>
                 </div>
+            </div>
+        </section>
 
-                <div class="edu-card">
-                    <div class="edu-header">
-                        <div class="edu-institution">
-                            <i class="fas fa-newspaper"></i>
-                            <span>University of Nairobi</span>
+        <section id="contact" aria-labelledby="contact-heading">
+            <div class="container">
+                <h2 id="contact-heading">Get In Touch</h2>
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/xgvzybkd" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
                         </div>
-                        <span class="edu-date">2022-Present</span>
-                    </div>
-                    <h3 class="edu-title">BA Journalism & Mass Communication</h3>
-                    <p>Undergraduate degree with focus on digital media and communication</p>
-                    <div class="edu-badges">
-                        <span class="edu-badge">Media Writing</span>
-                        <span class="edu-badge">Digital Storytelling</span>
-                        <span class="edu-badge">Communication Theory</span>
-                    </div>
-                </div>
-
-                <div class="edu-card">
-                    <div class="edu-header">
-                        <div class="edu-institution">
-                            <i class="fas fa-university"></i>
-                            <span>Harvard University</span>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
                         </div>
-                        <span class="edu-date">2024</span>
-                    </div>
-                    <h3 class="edu-title">CS50 Certification</h3>
-                    <p>Introduction to Computer Science</p>
-                    <div class="edu-badges">
-                        <span class="edu-badge">C Programming</span>
-                        <span class="edu-badge">Python</span>
-                        <span class="edu-badge">Algorithms</span>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                    
+                    <div id="form-feedback" role="alert">
+                        <p>Thank you for your message! I'll get back to you soon.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section id="skills">
-        <div class="container">
-            <h2>My Skills</h2>
-            <div class="skills-container">
-                <div class="skill-card">
-                    <i class="fab fa-html5"></i>
-                    <h3>HTML5</h3>
-                    <p>Semantic markup, accessibility, SEO optimization, Web Components</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-css3-alt"></i>
-                    <h3>CSS3</h3>
-                    <p>Flexbox, Grid, animations, responsive design, CSS variables</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-js"></i>
-                    <h3>JavaScript</h3>
-                    <p>ES6+, React, Node.js, TypeScript, functional programming</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-python"></i>
-                    <h3>Python</h3>
-                    <p>Django, Flask, data analysis, automation, machine learning</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fab fa-aws"></i>
-                    <h3>Cloud</h3>
-                    <p>AWS, Google Cloud, serverless architecture, microservices</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-database"></i>
-                    <h3>Databases</h3>
-                    <p>PostgreSQL, MongoDB, Firebase, Redis, database design</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="container">
-            <h2>Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-img-container">
-                        <img src="https://images.unsplash.com/photo-1586880244406-556ebe35f282?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBhcmNlbCUyMHRyYWNraW5nJTIwd2Vic2l0ZXxlbnwwfHwwfHx8MA%3D%3D" alt="Project 1" class="project-img">
-                    </div>
-                    <div class="project-info">
-                        <h3>Parcel Tracking Website </h3>
-                        <p>I collaborated with a whole team on this parcel delivery platform.It was developed to offer users a seamless and secure way to send and receive packages across different locations. As the backend developer, I built a robust and scalable system to handle real-time order tracking, secure user authentication, and efficient delivery management.</p>
-                        <div class="project-links">
-                            <a href="https://parcelpoa.marps.co.ke/"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-img-container">
-                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project 2" class="project-img">
-                    </div>
-                    <div class="project-info">
-                        <h3>Baby Monitoring platform</h3>
-                        <p>The baby monitoring platform smart alerts, and activity tracking to help parents stay connected with their little ones from anywhere. Designed with safety, simplicity, and peace of mind in mind, it’s your reliable companion in modern parenting.</p>
-                        <div class="project-links">
-                            <a href="https://baby-monitoring-web.web.app/"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-img-container">
-                        <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project 3" class="project-img">
-                    </div>
-                    <div class="project-info">
-                        <h3>Tanoshi Adventures Website</h3>
-                        <p>  This is a simple adventure company website currently under development,improving its design, designed to showcase thrilling outdoor experiences, travel packages, and booking features for explorers and nature lovers.</p>
-                        <div class="project-links">
-                            <a href="https://tanoshiadventureske.netlify.app/"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="interests">
-        <div class="container">
-            <h2>My Interests</h2>
-            <div class="interests-container">
-                <div class="interest-card">
-                    <h3><i class="fas fa-brain"></i> AI & Machine Learning</h3>
-                    <p>Exploring how artificial intelligence can transform industries and create more intuitive user experiences through predictive analytics and natural language processing.</p>
-                </div>
-                <div class="interest-card">
-                    <h3><i class="fas fa-lock"></i> Cybersecurity</h3>
-                    <p>Passionate about building secure applications and understanding the latest threats and defense mechanisms in the digital landscape.</p>
-                </div>
-                <div class="interest-card">
-                    <h3><i class="fas fa-leaf"></i> Green Tech</h3>
-                    <p>Interested in how technology can contribute to sustainability and environmental conservation through energy-efficient coding and green hosting solutions.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Get In Touch</h2>
-            <div class="contact-form">
-                <form action="https://formspree.io/f/xgvzybkd" method="POST">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required></textarea>
-                    </div>
-                    <button type="submit" class="submit-btn">
-                        <i class="fas fa-paper-plane"></i> Send Message
-                    </button>
-                </form>
-                
-                <!-- Success message that appears when form is submitted -->
-                <div id="form-feedback">
-                    <p>Thank you for your message! I'll get back to you soon.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
         <div class="footer-wave"></div>
         <div class="container">
             <div class="social-links">
-                <a href="https://github.com/whitshisia"><i class="fab fa-github"></i></a>
-                <a href="www.linkedin.com/in/whitneyshisia215"><i class="fab fa-linkedin"></i></a>
-                <a href="https://x.com/ShisiaWhitney"><i class="fab fa-twitter"></i></a>
-                <a href="https://discord.com/channels/@me"><i class="fab fa-discord"></i></a>
-                <a href="https://www.codewars.com/users/whitshisia"><i class="fab fa-codewars"></i>codewars</a>
+                <a href="https://github.com/whitshisia" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="www.linkedin.com/in/whitneyshisia215" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/ShisiaWhitney" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://discord.com/channels/@me" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                <a href="https://www.codewars.com/users/whitshisia" aria-label="Codewars"><i class="fab fa-codewars"></i>codewars</a>
             </div>
-            <div class="footer-links">
+            <nav class="footer-links" aria-label="Footer navigation">
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
-            </div>
+            </nav>
             <p class="copyright">© 2025 Whitneyshisia. All rights reserved.</p>
         </div>
     </footer>
-
 </body>
 </html>
